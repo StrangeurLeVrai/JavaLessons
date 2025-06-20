@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Sommaire \nLeçon 1 : Variables\nLeçon 2 : Conditions\nLeçon 3 : Tableaux\nLeçon 4 : Boucles\nLeçon 5 : Fonctions\nLeçon 6 : Les Objets\nLeçon 7 : héritage & interface\nLeçon 8 : Enumérations\nLeçon 9 : ArrayList9");
-        System.out.println("Leçon 10 : HashMaps\nLeçon 11 : Exceptions");
+        System.out.println("Leçon 10 : HashMaps\nLeçon 11 : Exceptions\nLeçon 12 : Chronomètres\nLeçon 13 : Fichiers");
         System.out.println("Entrez le numéro de la lesson : ");
 
         int numero = scanner.nextInt(); //Prend les nombre donné dans le tableau de commandes
@@ -58,6 +58,12 @@ public class Main {
                 break;
             case 11:
                 Lesson11.getLesson();
+                break;
+            case 12:
+                Lesson12.getLesson();
+                break;
+            case 13:
+                Lesson13.getLesson();
                 break;
             default: System.out.println("Cette leçon n'existe pas");
         }
